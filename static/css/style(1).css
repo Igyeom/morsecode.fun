@@ -1,0 +1,58 @@
+#key {
+  background-color: lime;
+  outline: none;
+  font-size: 40pt;
+  border: none;
+}
+
+#result {
+  background-color: #ccc;
+  font-size: 12pt;
+}
+
+
+body {
+  background-color: black;
+  font-family: 'Trebuchet MS'; !important
+  color: white;
+}
+
+input {
+  background-color: black;
+  font-size: 40pt;
+  outline: white;
+  outline-style: auto;
+  outline-width: 4px;
+  color: white;
+}
+
+textarea {
+  background-color: black;
+  font-size: 40pt;
+  outline: white;
+  outline-style: auto;
+  outline-width: 4px;
+  color: white;
+}
+
+#username {
+  background-color: black;
+}
+
+button {
+  background-color: black;
+  font-size: 40pt;
+  outline: white;
+  outline-style: auto;
+  outline-width: 4px;
+  color: white;
+}
+
+.chatbox {
+  background-color: #333;
+}
+
+a {
+  color: white;
+  display: inline;
+}
