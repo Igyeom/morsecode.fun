@@ -1,0 +1,15 @@
+{% if base|string() == "2"|string() %}
+{% extends 'base2.html' %}
+{% else %}
+{% extends 'base.html' %}
+{% endif %}
+
+{% block title %}
+    <title>morsecode.fun - online morse utilities</title>
+{% endblock %}
+
+{% block body %}
+    <br><br><br>
+    <h1>Successfully Signed Out!</h1>
+    <a href="/"><button>Go Back</button></a>
+{% endblock %}

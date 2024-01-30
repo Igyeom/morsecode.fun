@@ -1,0 +1,28 @@
+{% if base|string() == "2"|string() %}
+{% extends 'base2.html' %}
+{% else %}
+{% extends 'base.html' %}
+{% endif %}
+
+{% block title %}
+    <title>morsecode.fun - online morse utilities</title>
+{% endblock %}
+
+{% block head %}
+    <script src="../static/js/script.js"></script>
+{% endblock %}
+
+{% block body %}
+    <br><br><br>
+    <h1>Rules</h1>
+    <h3>By using this service, you agree to follow the following rules, and you acknowledge that failing to do so will lead to the punishment given for each rule.</h3>
+
+    <h4>SECTION 1: GENERAL</h4>
+    <p>1a. Do not attempt to spam the database with bot accounts. Trying to do so will result in your computer being blocked permanently.</p>
+    <p>1b. Respect everyone's privacy. Do not try to gain personal information including, but not limited to: passwords and tokens. Doxxing or gaining access to another account without permission will result in your computer being blocked permanently.</p>
+    <p>1c. Please do not try to use TOR Browser to try to hide your identity. Even if you try, you won't be able to access our website through TOR.</p>
+    <h4>SECTION 2: CHAT</h4>
+    <p>2a. Do not spam, mass-refresh, put in inappropriate things, or do anything that disturbs the peaceful nature of the chat feature of this service. Doing so will result in your computer being blocked permanently.</p>
+    <p>2b. No racism, please. Anything posted by you that has to do with racism will result in your computer being blocked permanently.</p>
+    <p>2c. Do not try to mass-report a user. One report per user is enough for us to look into it.</p>
+{% endblock %}

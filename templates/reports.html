@@ -1,0 +1,31 @@
+{% if base|string() == "2"|string() %}
+{% extends 'base2.html' %}
+{% else %}
+{% extends 'base.html' %}
+{% endif %}
+
+
+{% block title %}
+    <title>morsecode.fun - online morse utilities</title>
+{% endblock %}
+
+{% block head %}
+    <script src="../static/js/script.js"></script>
+    <style>tr {border-bottom: 1px solid #ddd;}</style>
+{% endblock %}
+
+{% block body %}
+    <br><br><br>
+    <h1>morsecode.fun</h1>
+    <h3>The best morse utilities site!</h3>
+    <h4>Admin Control Panel / Indev 0.1.0</h4>
+    <h5>By using our website and services, you agree to our Cookie Policy. <a href="cookies" style="color: white;">Learn more</a></h5>
+    
+    <p id="reports" hidden>{{ reports }}</p>
+
+    <table>
+        
+    </table>
+
+    <script src="../static/js/reports.js"></script>
+{% endblock %}

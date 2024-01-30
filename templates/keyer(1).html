@@ -1,0 +1,23 @@
+{% if base|string() == "2"|string() %}
+{% extends 'base2.html' %}
+{% else %}
+{% extends 'base.html' %}
+{% endif %}
+
+{% block title %}
+    <title>morsecode.fun - online morse utilities</title>
+{% endblock %}
+
+{% block body %}
+    <br><br><br>
+    <h1>morsecode.fun</h1>
+    <h3 style="color: white;">Keyer</h3>
+    <button id="key" style="color: black; background-color: lime;" onmousedown="red();" onmouseup="lime();" ontouchstart="red();" ontouchend="lime();" onkeydown="red();" onkeyup="lime();">Key</button>
+    <p>Frequency:</p>
+    <input type="number" value="550" id="freq" min="300" max="1000">
+    <input type="submit" value="Set Frequency" id="submit" onmousedown="setfreq();" onmouseup="black();" ontouchstart="setfreq();" ontouchend="black();"><br>
+    <textarea id="result" style="color:white;background:black;" disabled></textarea>
+    <br><br><br><br>
+    <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
+    <script src="../static/js/script.js"></script>
+{% endblock %}

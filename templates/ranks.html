@@ -1,0 +1,45 @@
+{% if base|string() == "2"|string() %}
+{% extends 'base2.html' %}
+{% else %}
+{% extends 'base.html' %}
+{% endif %}
+
+
+{% block title %}
+    <title>morsecode.fun - online morse utilities</title>
+{% endblock %}
+
+
+{% block body %}
+    <br><br><br>
+    <h1>morsecode.fun</h1>
+    <h3>About The Ranks</h3>
+    <h5>By using our website and services, you agree to our Cookie Policy. <a href="cookies" style="color: white;">Learn more</a></h5>
+    <h6>(All ranks are based upon your ELO)</h6>
+    <style>
+        p {
+            font-size: 48pt;
+        }
+    </style>
+    <img src="./static/badges/ss.png">
+    <img src="./static/badges/s.png"><br>
+    <p>2750 2500</p>
+    <img src="./static/badges/a+.png">
+    <img src="./static/badges/a.png">
+    <img src="./static/badges/a-.png"><br>
+    <p>2300 2100 2000</p><br>
+    <img src="./static/badges/b+.png">
+    <img src="./static/badges/b.png">
+    <img src="./static/badges/b-.png"><br>
+    <p>1800 1600 1500</p><br>
+    <img src="./static/badges/c+.png">
+    <img src="./static/badges/c.png">
+    <img src="./static/badges/c-.png"><br>
+    <p>1250 1000 900</p><br>
+    <img src="./static/badges/d.png"><br>
+    <p>0</p><br>
+    <img src="./static/badges/unknown.png"><br>
+    <p>Provisional Rating</p>
+    <script src="../static/js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+{% endblock %}

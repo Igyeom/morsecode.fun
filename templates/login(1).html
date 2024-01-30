@@ -1,0 +1,20 @@
+{% extends 'base.html'%}
+
+{% block title %}
+    <title>morsecode.fun - online morse utilities</title>
+{% endblock %}
+
+{% block body %}
+    <br><br><br>
+    <h1>morsecode.fun</h1>
+    <h3>Log In</h3>
+
+    <h5>By using our website and services, you agree to our Cookie Policy. <a href="cookies" style="color: white;">Learn more</a></h5>
+
+    <form action="{{ url_for('signin_result') }}" method="post">
+    <input placeholder="Username" autocomplete="off" type="text" name="username"><br>
+    <input placeholder="Password" autocomplete="off" type="password" name="password"><br>
+    <input value="Log In" type="submit">
+    </form>
+
+{% endblock %}

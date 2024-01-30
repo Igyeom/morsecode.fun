@@ -1,0 +1,20 @@
+{% if base|string() == "2"|string() %}
+{% extends 'base2.html' %}
+{% else %}
+{% extends 'base.html' %}
+{% endif %}
+
+
+{% block title %}
+    <title>morsecode.fun - online morse utilities</title>
+{% endblock %}
+
+{% block head %}
+    <script src="../static/js/script.js"></script>
+{% endblock %}
+
+{% block body %}
+    <br><br><br>
+    <h1>morsecode.fun</h1>
+    <h3>Error: Invalid Match ID! Did you make a typo?</h3>
+{% endblock %}

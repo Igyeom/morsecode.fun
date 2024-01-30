@@ -1,0 +1,30 @@
+{% if base|string() == "2"|string() %}
+{% extends 'base2.html' %}
+{% else %}
+{% extends 'base.html' %}
+{% endif %}
+
+
+{% block title %}
+    <title>morsecode.fun - online morse utilities</title>
+{% endblock %}
+
+
+{% block body %}
+    <br><br><br>
+    <h1>morsecode.fun</h1>
+    <h3>Ranked Morse Dictation</h3>
+    <h4>Practice your dictation skills by racing with others around the world!</h4>
+    <h5>By using our website and services, you agree to our Terms of Service. <a href="tos" style="color: white;">Learn more</a></h5>
+    <button onclick="ranked();" id="joinRanked">Enter A Ranked Match (Current Queued: ???)</button><br>
+    <div id="ranked" style="border: white 5px solid; width: 50%;">
+        <p>Matching you up with someone around your skill level, be patient...</p>
+        Here's a randomly generated cat GIF in the meantime:<br>
+        <img src="https://thecatapi.com/api/images/get?format=src&type=gif" alt="cat pic not loading !! meow ;(">
+    </div>
+    <button>Enter A Casual Match</button><br>
+    Your Current ELO:
+    <b>{{ elo }}</b>
+    <script src="../static/js/race.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+{% endblock %}

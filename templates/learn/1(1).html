@@ -1,0 +1,27 @@
+{% extends 'base.html'%}
+
+{% block head %}
+    <script src="../static/js/script.js"></script>
+{% endblock %}
+
+{% block title %}
+    <title>morsecode.fun - online morse utilities</title>
+{% endblock %}
+
+{% block body %}
+    <br><br><br>
+    <h1>Lesson 1: What is Morse Code?</h1>
+    <h3 style="color: white;">Audio Lesson</h3>
+
+    <audio controls>
+        <source src={{ url_for("static", filename="/audio/lesson_1.wav") }} type="audio/mpeg">
+        Your browser does not support the audio player. We recommend Chrome or Opera for the best experience on morsecode.fun.
+    </audio>
+
+    <h5>If the audio doesn't work, or you prefer reading, read the following:</h5>
+
+    <p>Morse Code, was invented by Samuel Morse during the 1830s, and the story behind it is as meaningful as the invention itself. It is the 19th century. Samuel Morse, who was a painter, received a letter which told him his wife was badly ill on horseback. Once he got to her, she was already dead, and already buried, as well. Morse was devastated, but he decided to attempt to create a much faster way of communication, since he was frustrated by how slow messengers on horseback was. He used electronic signals, which only could output binary data, 0s and 1s. He thought for a bit and figured out he could use long and short signals of 1s, in order to convey messages. There he invented “American Morse Code”. But nowadays, we use an improvised version of the code, named the “International Morse Code”.  In this course, we go in-depth on the International Morse Code, to help you copy, and key “International Morse”. I assure you, you’ll find learning a skill like Morse Code, easy, fun, and fascinating. Whether you’ve already learnt Morse, but is not fluent, or are learning from scratch, this course will help you out on your journey to mastering the code. We’ll use the Koch method, which has been scientifically proven to be the most efficient, and overall good way to learn Morse Code. This has been Ian, from morsecode.fun, and I hope to make your skills in morse code fun.</p>
+
+    <br><br><br><br>
+    <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
+{% endblock %}

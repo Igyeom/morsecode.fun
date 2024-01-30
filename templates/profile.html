@@ -1,0 +1,31 @@
+{% if base|string() == "2"|string() %}
+{% extends 'base2.html' %}
+{% else %}
+{% extends 'base.html' %}
+{% endif %}
+
+{% block title %}
+    <title>morsecode.fun - online morse utilities</title>
+{% endblock %}
+
+{% block head %}
+    <script src="../static/js/script.js"></script>
+{% endblock %}
+
+{% block body %}
+    <br><br><br>
+
+    <h1>morsecode.fun</h1>
+
+    <img src="{{ pfp }}" width="64px" height="64px" style="float: left;">
+    <h3 style="font-size: 48pt; float: left; transform: translate(10%, -10%);">{{ name }}</h3>
+    <img src="/static/badges/{{ badge }}.png" style="display: inline; float: left; transform: translate(40%, 10%);" width="42px" height="64px"><br><br><br><br>
+
+    <h3>Rank: <img src="./static/badges/{{ rank }}.png" width="64px" height="64px">({{ elo }} ELO)</h3>
+
+    <br><br>
+
+    <h5>Bio:</h5><p>{{ bio }}</p>
+
+    <h5 style="transform: translate(0%, -10%);">By using our website and services, you agree to our Cookie Policy. <a href="cookies" style="color: white;">Learn more</a></h5>
+{% endblock %}

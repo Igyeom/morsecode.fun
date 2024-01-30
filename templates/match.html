@@ -1,0 +1,22 @@
+{% if base|string() == "2"|string() %}
+{% extends 'base2.html' %}
+{% else %}
+{% extends 'base.html' %}
+{% endif %}
+
+
+{% block title %}
+    <title>morsecode.fun - online morse utilities</title>
+{% endblock %}
+
+{% block head %}
+{% endblock %}
+
+{% block body %}
+    <br><br><br>
+    <h1>morsecode.fun</h1>
+    <h3 id="match-info">LIVE Ranked Match (ID: ???)</h3>
+    <h4>{{ p1 }} ({{ elo }}) vs. {{ p2 }} ({{ elo2 }})</h4>
+    <button id="key" style="color: black; background-color: lime;">Key</button>
+    <script src="../static/js/match.js"></script>
+{% endblock %}

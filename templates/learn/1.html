@@ -1,0 +1,19 @@
+{% extends 'base.html'%}
+
+{% block head %}
+    <script src="../static/js/lesson.js"></script>
+{% endblock %}
+
+{% block title %}
+    <title>morsecode.fun - online morse utilities</title>
+{% endblock %}
+
+{% block body %}
+    <br><br><br>
+    <h1>Lesson 1: Timings & E, T, A</h1>
+    <h2 id="guide"></h2>
+    <button onclick="start();">Start Lesson</button><br><br>
+    <button id="key" style="color: black; background-color: lime;" onmousedown="red();" onmouseup="lime();">Key</button><br>
+
+    <input type="text" id="result" style="color: white; background-color: black;" disabled>
+{% endblock %}

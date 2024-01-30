@@ -1,0 +1,20 @@
+{% if base|string() == "2"|string() %}
+{% extends 'base2.html' %}
+{% else %}
+{% extends 'base.html' %}
+{% endif %}
+
+
+{% block title %}
+    <title>morsecode.fun - online morse utilities</title>
+{% endblock %}
+
+{% block head %}
+    <script src="../static/js/script.js"></script>
+{% endblock %}
+
+{% block body %}
+    <br><br><br>
+    <h1>morsecode.fun's Cookie Policy</h1>
+    <p>Your privacy is respected here on morsecode.fun. The only data we collect on cookies is your Login Token (which only affects you when you decide to log in) and it is not shared to anyone. The Login Token is a way of proving that you are who you are, and it is a way of keeping track of who is using the service on your computer. These cookies last until you log out of your account, or until you opt out of cookies. Remember, if you'd like to opt out, you can always do so in your browser's settings!</p>
+{% endblock %}

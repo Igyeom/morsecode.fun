@@ -1,0 +1,53 @@
+{% if base|string() == "2"|string() %}
+{% extends 'base2.html' %}
+{% else %}
+{% extends 'base.html' %}
+{% endif %}
+
+{% block title %}
+    <title>morsecode.fun - online morse utilities</title>
+{% endblock %}
+
+{% block head %}
+  <script>
+    function block() {
+      window.open("../action/" + document.getElementById('name').value, '_blank').focus();
+    }
+  </script>
+{% endblock %}
+{% block body %}
+    <br><br><br>
+    <h1>morsecode.fun</h1>
+    <h3 style="color: white;">Keyer v2 (Beta)</h3>
+    <button id="key" style="color: black; background-color: lime;" onmousedown="red();" onmouseup="lime();" ontouchstart="red();" ontouchend="lime();">Key</button>
+    <p>Frequency:</p>
+    <input type="number" value="550" id="freq" min="300" max="1000">
+    <input type="submit" value="Set Frequency" id="submit" onmousedown="setfreq();" onmouseup="black();" ontouchstart="setfreq();" ontouchend="black();"><br><br>
+    <p>Keying Speed:</p>
+    <input type="number" value="5" id="wpm" min="1">
+    <input type="submit" value="Set WPM" id="setwpm" onmousedown="setwpm();" onmouseup="black2();"><br>
+    <input type="text" placeholder="Morse Code Output goes here..." id="result" style="color:white;background:black;width:500px;" disabled>
+    <button id="send" style="color:black;background-color: lime;" onclick="send();">Send (enter)</button>
+    <button id="cancel" style="color:black;background-color: red;" onclick="cancel();">Cancel (esc)</button><br>
+    <br><br><br><br>
+    <script src="../static/js/v2.js"></script>
+    <div id="chat">
+      <div class="card text-white bg-dark">
+        <div class="card-header">
+          1970-01-01 00:00:00
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">reserved</h5>
+          <p class="card-text">THIS IS AN EXAMPLE MESSAGE. HELLO WORLD!</p>
+          <button class="btn btn-success" onclick="play('THIS IS AN EXAMPLE MESSAGE. HELLO WORLD!');">Play message</button>
+        </div>
+      </div>
+    </div>
+    <br>
+    <input type="text" style="font-family: 'Courier New'" placeholder="Username..." id="name">
+    <button onclick="block();">BLOCK/REPORT</button>
+    <br><br><br><br>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="../static/js/chat-v2.js"></script>
+    <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
+{% endblock %}

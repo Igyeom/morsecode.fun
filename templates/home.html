@@ -1,0 +1,57 @@
+{% if base|string() == "2"|string() %}
+{% extends 'base2.html' %}
+{% else %}
+{% extends 'base.html' %}
+{% endif %}
+
+
+{% block title %}
+    <title>morsecode.fun - online morse utilities</title>
+{% endblock %}
+
+{% block head %}
+    <script src="../static/js/script.js"></script>
+    <script src="../static/js/sus.js"></script>
+{% endblock %}
+
+{% block body %}
+    <br><br><br>
+    <h1>morsecode.fun</h1>
+    <h3>The best morse utilities site!</h3>
+    <h4>Indev 0.1.0</h4>
+    <h5>By using our website and services, you agree to our Cookie Policy. <a href="cookies" style="color: white;">Learn more</a></h5>
+
+    <div id="sus" hidden>
+        <h1 style="color: red;">SUS</h5>
+        <img src="../static/images/hehe.gif">
+    </div>
+
+    <div class="card-group" style="display: flex;">
+        <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+        <div class="card-body">
+            <img src="./static/images/translator.png" class="card-img-top" alt="..."><br><br>
+            <h5 class="card-title">The Translator</h5>
+            <p class="card-text">Built with pride.</p>
+            <a href="./translator"><button type="button" class="btn btn-primary">Enter</button></a>
+        </div>
+        </div>
+
+        <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+        <div class="card-body">
+            <img src="./static/images/keyer.png" class="card-img-top" alt="..."><br><br>
+            <h5 class="card-title">The Keyer</h5>
+            <p class="card-text">Practice Keying Morse!</p>
+            <a href="./keyer-v2?lang=English"><button type="button" class="btn btn-primary">Enter</button></a>
+        </div>
+        </div>
+
+        <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+        <div class="card-body">
+            <img src="./static/images/chat.png" class="card-img-top" alt="..."><br><br>
+            <h5 class="card-title">The Public Morse Chat</h5>
+            <p class="card-text">The Morse Code Chatting App made for morsers, by morsers.</p>
+            <a href="./chat"><button type="button" class="btn btn-primary">Enter</button></a>
+        </div>
+    </div>
+    </div>
+{% endblock %}

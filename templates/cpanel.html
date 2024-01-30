@@ -1,0 +1,50 @@
+{% if base|string() == "2"|string() %}
+{% extends 'base2.html' %}
+{% else %}
+{% extends 'base.html' %}
+{% endif %}
+
+
+{% block title %}
+    <title>morsecode.fun - online morse utilities</title>
+{% endblock %}
+
+{% block head %}
+    <script src="../static/js/script.js"></script>
+{% endblock %}
+
+{% block body %}
+    <br><br><br>
+    <h1>morsecode.fun</h1>
+    <h3>The best morse utilities site!</h3>
+    <h4>Admin Control Panel / Indev 0.1.0</h4>
+    <h5>By using our website and services, you agree to our Cookie Policy. <a href="cookies" style="color: white;">Learn more</a></h5>
+    <div class="card-group" style="display: flex;">
+        <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+        <div class="card-body">
+            <img src="./static/images/reports.jpeg" class="card-img-top" alt="..."><br><br>
+            <h5 class="card-title">View Reports</h5>
+            <p class="card-text">Easier said than done...</p>
+            <a href="cpanel/reports"><button type="button" class="btn btn-primary">Enter</button></a>
+        </div>
+        </div>
+
+        <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+        <div class="card-body">
+            <img src="./static/images/ban.gif" class="card-img-top" alt="..."><br><br>
+            <h5 class="card-title">Ban Hammer</h5>
+            <p class="card-text">haha admin abuse go brrr</p>
+            <a href="cpanel/ban"><button type="button" class="btn btn-primary">Enter</button></a>
+        </div>
+        </div>
+
+        <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+        <div class="card-body">
+            <img src="./static/images/log.jpeg" class="card-img-top" alt="..."><br><br>
+            <h5 class="card-title">The Audit Log</h5>
+            <p class="card-text">pls no abuse hehe</p>
+            <a href="cpanel/audit-log"><button type="button" class="btn btn-primary">Enter</button></a>
+        </div>
+    </div>
+    </div>
+{% endblock %}

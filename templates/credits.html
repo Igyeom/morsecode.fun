@@ -1,0 +1,26 @@
+{% if base|string() == "2"|string() %}
+{% extends 'base2.html' %}
+{% else %}
+{% extends 'base.html' %}
+{% endif %}
+
+
+{% block title %}
+    <title>morsecode.fun - online morse utilities</title>
+{% endblock %}
+
+{% block head %}
+    <script src="../static/js/script.js"></script>
+{% endblock %}
+
+{% block body %}
+    <br><br><br>
+    <h1>morsecode.fun</h1>
+    <h3>CREDITS (for v0.1.0)</h3>
+    <h4>By using our website and services, you agree to our Cookie Policy. <a href="cookies" style="color: white;">Learn more</a></h5>
+    <h5>This site was made in Python Web Framework "Flask" by juicyguyzer</h5><br>
+    <h6>Icons: flaticon.com</h6>
+    <h6>ELO Rating Calculation Library (for Ranked Races): @danybeam on GitHub // pip install ELO-utils</h6>
+    <h6>Styling: Bootstrap 5.0</h6>
+    <h6>Special Thanks to Contributors on GitHub: <a href="../@juicy" style="color: white;">juicyguyzer</a> (Creator/Admin)</h6>
+{% endblock %}

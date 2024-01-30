@@ -1,0 +1,26 @@
+{% if base|string() == "2"|string() %}
+{% extends 'base2.html' %}
+{% else %}
+{% extends 'base.html' %}
+{% endif %}
+
+{% block title %}
+    <title>morsecode.fun - online morse utilities</title>
+{% endblock %}
+
+{% block body %}
+    <br><br><br>
+    <h1>morsecode.fun</h1>
+    <h3>Translator</h3>
+
+    <h4>English => Morse</h4>
+
+    <textarea id="english" placeholder="English goes here..."></textarea>
+    <textarea id="morse" placeholder="Morse goes here..." disabled></textarea><br><br>
+
+    <h4>Morse => English</h4>
+    <textarea id="morse2" placeholder="Morse goes here..."></textarea>
+    <textarea id="english2" placeholder="English goes here..." disabled></textarea>
+
+    <script src="../static/js/translator.js"></script>
+{% endblock %}

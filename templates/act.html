@@ -1,0 +1,23 @@
+{% if base|string() == "2"|string() %}
+{% extends 'base2.html' %}
+{% else %}
+{% extends 'base.html' %}
+{% endif %}
+
+{% block title %}
+    <title>morsecode.fun - online morse utilities</title>
+{% endblock %}
+
+{% block head %}
+    <script src="../static/js/script.js"></script>
+{% endblock %}
+
+{% block body %}
+    <br><br><br>
+    <h1>Block/Report '{{ name }}'</h1>
+    <p id="user" hidden>{{ name }}</p>
+
+    <h4>Are you sure you'd like to block '{{ name }}'?</h4>
+    <input type="checkbox" id="report"> I'd also like to report this user for violating the <a href="../../rules" style="color: white"><b>rules</b></a> in the chat.<br>
+    <button onclick="request();">Submit Request</button>
+{% endblock %}

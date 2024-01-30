@@ -1,0 +1,44 @@
+{% if base|string() == "2"|string() %}
+{% extends 'base2.html' %}
+{% else %}
+{% extends 'base.html' %}
+{% endif %}
+
+{% block title %}
+    <title>morsecode.fun - online morse utilities</title>
+{% endblock %}
+
+{% block body %}
+    <br><br><br>
+    <h1>morsecode.fun</h1>
+    <h3>Chat</h3>
+    <h4 id="pinned"></h4>
+    <h6>Using this service means you're agreeing to the <a href="../rules" style="color: white;"><b>rules</b></a>, and that failing to abide it may result in a punishment.</h6>
+    <h6>List of channels:</h6>
+    <pre>
+    #general
+    #beginner
+    #tech
+    #toki-pona
+    #tpt (DON'T JOIN IF YOU DON'T KNOW WHAT THIS IS!)
+    </pre>
+    <pre style="display: inline;">#</pre><input type="text" style="font-family: Roboto;" placeholder="Channel" id="chan">
+    <button onclick="channelSwitch();">SWITCH</button><br>
+    <button id="key" style="color: white; background-color: black;" onmousedown="red();" onmouseup="lime();" ontouchstart="red();" ontouchend="lime();">Key</button>
+    <p>Frequency:</p>
+    <input type="number" id="freq" value="0" disabled>
+    <input type="submit" value="Hz" id="submit" onmousedown="setfreq();" onmouseup="black();" ontouchstart="setfreq();" ontouchend="black();" disabled><br>
+    <br>WPM:<br>
+    <input type="number" value="5" id="wpm" min="1">
+    <input type="submit" value="Set WPM" id="setwpm" onmousedown="setwpm();" onmouseup="black2();"><br>
+    <input type="text" placeholder="Morse Code Output goes here..." id="result" style="color:white;background:black;width:500px;" disabled>
+    <button id="send" style="color:black;background-color: lime;" onclick="send();">Send (enter)</button>
+    <button id="cancel" style="color:black;background-color: red;" onclick="cancel();">Cancel (esc)</button><br><br>
+    <textarea id="output" value="{{ value }}" style="color:white;background:black;width:800px;height:600px;resize:none;font-size:16pt;font-family:Roboto;" disabled></textarea><br>
+    <input type="text" style="font-family: Roboto;" placeholder="Username..." id="name">
+    <button onclick="block();">BLOCK/REPORT</button>
+    <br><br><br><br>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="../static/js/chat.js"></script>
+    <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
+{% endblock %}

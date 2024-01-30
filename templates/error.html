@@ -1,0 +1,33 @@
+{% if base|string() == "2"|string() %}
+{% extends 'base2.html' %}
+{% else %}
+{% extends 'base.html' %}
+{% endif %}
+
+{% block head %}
+    <script src="../static/js/script.js"></script>
+{% endblock %}
+
+{% block title %}
+    <title>morsecode.fun - online morse utilities</title>
+{% endblock %}
+
+{% block body %}
+    <br><br><br>
+    <h1>morsecode.fun</h1>
+    <h2 style="color: red;">Please do NOT report issues for trying to use Chat without logging in.<br>Login is REQUIRED for chat.</h2>
+    <img src="./static/images/dino.png" width="960" height="540" style="transform: translate(-30%, 0px);">
+    <h3 style="color: white;">Whoops!</h3>
+    <h4>Something went wrong.</h4>
+    <h5>Try the following:</h5>
+    <pre>
+    1. Check if you mistyped the URL.
+    2. Check your internet connection.
+    3. Check if you're logged in.
+    4. Restart your device.
+    5. Try clearing your cache.
+    </pre>
+    <h6>Nothing worked? <a href="https://github.com/juicyguyzer/morsecode.fun" style="color: white;"><b><u>Submit an issue</u></b></a> on GitHub, and include the following:</h6>
+    Debug Code:<br><br><br>
+    <b>{{ exception }}</b>
+{% endblock %}

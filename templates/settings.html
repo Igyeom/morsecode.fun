@@ -1,0 +1,41 @@
+{% if base|string() == "2"|string() %}
+{% extends 'base2.html' %}
+{% else %}
+{% extends 'base.html' %}
+{% endif %}
+
+
+{% block title %}
+    <title>morsecode.fun - online morse utilities</title>
+{% endblock %}
+
+{% block head %}
+    <script src="../static/js/script.js"></script>
+{% endblock %}
+
+{% block body %}
+    <br><br><br>
+    <h1>morsecode.fun</h1>
+    <h3>Settings</h3>
+    <h3 style="color: red;">{{ error }}</h3>
+    <h3 style="color: limegreen">{{ success }}</h3>
+    <h4>Change Password:</h4>
+    <form action="#" method="post">
+        <input type="password" name="oldpw" placeholder="Current Password"><br>
+        <input type="password" name="newpw" placeholder="New Password"><br>
+        <input type="password" name="cnewpw" placeholder="Confirm New Password"><br>
+        <input type="submit" value="Change Password">
+    </form>
+    <br><br>
+    <h4>Edit Profile:</h4>
+    <form action="#" method="post">
+        <input type="password" name="pw" placeholder="Password"><br>
+        <input type="text" name="username" placeholder="New Username" value="{{ name }}"><br>
+        <input type="text" name="bio" placeholder="New Bio" value="{{ bio }}"><br>
+        <input type="text" name="pfp" placeholder="URL of Profile Picture" value="{{ pfp }}"><br>
+        <input type="submit" value="Edit Profile">
+    </form><br><br>
+
+    <h4 style="color: red;">DANGER ZONE</h4>
+    <button onclick="location.href = 'delete';">Delete Account Permanently</button>
+{% endblock %}

@@ -1,0 +1,865 @@
+[
+  {
+    "username": "...-....-..-",
+    "password": "$2b$12$s7dN0zp.APYUnsLZT7wXleoHDOCRCCKXjD.zUwx9N/Zn7zRASjVW2",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "pepe",
+    "password": "$2b$12$RmYksEyHWcIMqrq3Mw/cneIVDwzVj.Z673zfd288XHhnFwaUaME2C",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "altagent",
+    "password": "$2b$12$GqfUFt1EFCK15LSu3pcOp.4N.wBuPpYa94GcOo.457Sr4869R0wAO",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "SunFenkin",
+    "password": "$2b$12$u3FRFmfS4pYOoS/.NbB1B.L2YLBY2pCpcb2AJW0/rRCGV62ZVksVu",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "Bapty",
+    "password": "$2b$12$6dfiUWLa.BkaxKkSIYjXBeNJgsxknayWW59wmyZm/malOtMzTatAm",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "KK7MPR",
+    "password": "$2b$12$XhGDH/bTbPmqdVVgWYqxd.SIw5Q/gwTwqk2KLTclPABQ2xb.v0Q9W",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "Roman_Bold",
+    "password": "$2b$12$isTLCu9Mubpv0tC2RAbZseMzV/ItWZ3i7bgtnkpyOX5ClN9Jsk4za",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "Datweirdo98 ",
+    "password": "$2b$12$Z62OZHHfmnLB/.BoG4AUU.Cg7E8XsPMJNE8J/J01YDlpzS8TIqxFK",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "wefaq",
+    "password": "$2b$12$VXNTxcxFH6FAfdoGhVDuhe2yDH8BpUpM0kzfeQxQpmVtPduR44n0u",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "illit23",
+    "password": "$2b$12$eiuFUaxm8NvvOd21ZBhrFuRmsdaKesG00eGfQXWbUfAYhAns1K0ue",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "usa23kaj",
+    "password": "$2b$12$hyNixFybJxBtJfzUkO0O7.T5Q9UQ7mZ3a9tqiRUlXuROUhlv48AUW",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "bald",
+    "password": "$2b$12$G303eQr01mi8y5vUmRY2KOFwttUIhorgqLjC0iY24wfH2WY.A5NOS",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "FRO102",
+    "password": "$2b$12$bH3uukuI6STt2KsJzrrX8elAsHBMbke4ywnc4P.L.ZX0T/Dx4tfPS",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "DawnKraken",
+    "password": "$2b$12$6EGOU/3nFSz2BOWRdqAEnex/m70yzrMliDh6V/M8/gmDyLcgJIU6G",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "lxrdkaz",
+    "password": "$2b$12$f2/afYd8wlYcbhQcxWVFPu0znosMdV3OZdMI2et8.2SG7K.VUH/YK",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "xhekd",
+    "password": "$2b$12$9pAZFM4xmIFDL9dnN.tqTeAvyuHg.bUhPLu7N6fTBpPlTl6RyaNh6",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "intheend",
+    "password": "$2b$12$RZQR2CfL1FKosC7cLKGtsuvw/OuEw8yGuRSh7/1TQM34p62WAyzAS",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "X4C11",
+    "password": "$2b$12$gJQvaMcwsCqv1AgR3bcE3OnJZ47fNZD0Eb8MiaME8pyPnkJM0wKNe",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "X4C1",
+    "password": "$2b$12$hLji6dw/Wjm9wjZoCIA.leAW.tqVW2rUCh2pvjCHJBQrr3C9dupry",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "jjackson123",
+    "password": "$2b$12$98l7O.0BqCVz9LECV1mtU.mrbqj/ka/7cXzUAXFOce9oY3DjhnqHC",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "jjackson",
+    "password": "$2b$12$Xw2atBmYBmpN/PXsmRFR0euUuRHLKDuI36Y0YNIsxw9ZJmT2sRW2a",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "morsemaster",
+    "password": "$2b$12$zCrFSfEZsHTbU7vS.Fh1XeEvlECD4GWcEx6LHg0iA/BcZS4VMoMwC",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "jekigac438@b",
+    "password": "$2b$12$GeJbP9QwByQgaUO5xLqKsODV.uYXIHEWqCGhcXGNzMRQLdZSWFKAG",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "under",
+    "password": "$2b$12$8Xl6vFL4Wcvpnjs1w3PQp.yPjuNEr6kxu6LL8/Ie2C/RHdJzRoxLy",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "KC5BSG",
+    "password": "$2b$12$rlfC1NWWwRZodlPiJ1BPGO6KRHnS1mZJ9bqaFz.nwvxeUCUlhCAZu",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "octogon",
+    "password": "$2b$12$muOUUZ7s6z902jF1AhtrBeQuV0EcldhK0.4cShGVNfE0CFZ.wHOA2",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "zefray",
+    "password": "$2b$12$RY1Cjh3VKiAuEZYw8ufEFuZL0FRuCxdGXs6utax2/F50GkjVTsQTK",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "\u0423\u0421 \u0418\u0412\u041e\u041b\u0413\u0410",
+    "password": "$2b$12$w55y2QyOkKMeGGzFqoA6YeHwWIienuOdnsL45HqVK.RbjuW49A3kW",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "lemin",
+    "password": "$2b$12$GEljtG27l8Pb30F.lCic3uxgtLAUOKuvG1vM3mJltpZPtpaI53tBq",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "Werto",
+    "password": "$2b$12$FL65jU1.IyFyOyE/E4zejufKiJBFjm8QD8dtrijj.RFWEr0iABeiy",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "US52LLM",
+    "password": "$2b$12$N1XTeiYKH1XcxD9.OkNRde.Lu3ky8wSzfO/pnFhDFB169X6jGutEa",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "Gabi",
+    "password": "$2b$12$75Nex4iJ0keowZPlEVWoR.4PB4FU7DZdCSqGx2B4bcXCIF9a/2/RS",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "BatlO-O",
+    "password": "$2b$12$1EzDkfVM0HdDxe0Qp3kBCefEIs29Q0A1zQQgu9c8LgHGg6Oh3NQI6",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "vpvaminhquan",
+    "password": "$2b$12$gTp3Zd75XEzfGlEK55TCy.YsgdZY3VlUgY0WSh4pAKR8lfiPSnJHa",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "JackPhillips",
+    "password": "$2b$12$m.uXuYajX0PD5NV33y5mpOud2p4gnRLIDuHNiRCHGdr.9t1/a.Q3G",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "userpictaken",
+    "password": "$2b$12$u5.n0FlA4dU5u8eCL5bC6uJxTwwM463yKZH3TkoaGvGBRTWrEcNFC",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "epicgr1ff2.0",
+    "password": "$2b$12$2rAsR38Qkezcqat23wo1KeBdRQMcbc5WlTil14KNZniNz84ZLACFy",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "epicgr1ff",
+    "password": "$2b$12$gDyFy3fenU80wzbhsf7MCOpMQr6P.MzGPXrTywZWSoSzpBFRURBm2",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "KIK711",
+    "password": "$2b$12$/9LND9fZX.flUhzbb969PuBdIhEENWqkA1F.w3xpZ8Catb0meobDu",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "MDY75",
+    "password": "$2b$12$rnCaNIwMItCVu6AltaYP..n/R2A7CmfdcciFlxLNFxxDMbZSimP.G",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "MDYA",
+    "password": "$2b$12$bODqN2YhCWyFIPbYooEtpeXnUwj7L4KsYlwAOjBtOreqZ2lQC5vyW",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "MXA",
+    "password": "$2b$12$X7snb15rBfNpp8RTpeI4s.7DO5s3Sj1c3wJkkBg93J.3FaoKgL/KW",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "cutecorset",
+    "password": "$2b$12$qhKgnBv0nRJ00eTBSRhhLOQfEj.AyofLNTSviJtXh1MoawH6Y188i",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "PL69THC",
+    "password": "$2b$12$pk.2eT4mtENPQP5.A4TlM.5fDGI7FQOsVQfFGfC9ZzynFgsRDuy6y",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "Benkex",
+    "password": "$2b$12$dgmGUz8RQZqQX7iQ9z5crezzQzzC1Hyclqdvo58sdrzEy/nYGIPpi",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "yb1",
+    "password": "$2b$12$yyLnTjBw.PCxgBY68tNlsOSKzGzc1jWywUbrG.K6EEsYYjOvMOePa",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "blob691",
+    "password": "$2b$12$W5hCNi8saApt0CsknRpabeNFSBNDQF/uHnyzD2pchroJVj/fycUm6",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "112",
+    "password": "$2b$12$abtERvnF/vkHlR4dnQA4wOdEtQ7bsRbJrES2Jatqkpn4ZZooFHrZK",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "123",
+    "password": "$2b$12$EGt.nbV6N.gEz8Cjvhh/IuCTZtAhvqmDs.CxBDGgFNsGYHYo7/zki",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "ebvuierbvu",
+    "password": "$2b$12$IJ/3TH7oyBnSEgIDz/IIOe4w4p3YgrNJv6hx35rqyVSzYKtxj7T0m",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "pff2023",
+    "password": "$2b$12$JrLZeM3KkbyCTpo.XgBBJeCNOrsSjv2EC3kUcj8o/mhvj6qqg2WSe",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "nik",
+    "password": "$2b$12$qD6DtnB5DsIDRh702./hXuMqrzlv75C2cl5h7OuETJe3Ez.9Hh7WW",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "Olympic",
+    "password": "$2b$12$rVJZnWXv9Gong//afCy.Se61Y/5nbM.cBFLOyvLwgN2FEZWSB74cW",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "eato99",
+    "password": "$2b$12$J0J7TbCBkUwSKZIYtO4uNeIDUMvLa6lXp82ZMFHTnLK9DM1rhUBNW",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "fayvixe",
+    "password": "$2b$12$MgfZzoKXQ9LLlndffRH4a.46nUeVaaKK3oAc6JW3AtbdEF3QmcC.2",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "starlight",
+    "password": "$2b$12$UUtjPpdG52hWHNGAi4ty9OnKgYUcunp0mFVNq31d1HfTB4NDsYKUS",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "Notabot",
+    "password": "$2b$12$6tZGyeCMah4anPDUiRNKH.hKblJLKnDRiyRKJ.UyPMQyV3aXqZORS",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "samisung",
+    "password": "$2b$12$FuksJwRaVJzwmbv7gk0hEeIm7RIVjQp1Ok5K4BWZ8wta4F0zKFNSq",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "DesertEagle",
+    "password": "$2b$12$Qrq.YNENJJ4vkytDcIzYBeG69guBq3/x3c1qrPjqhIWT.24uULQ.u",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "lileskobomb",
+    "password": "$2b$12$BRJmt8hdHgMKEpjbfZBJzeS/eP/2zXcK5LBMoyajNh1jgbh4ZERg2",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "MasonR",
+    "password": "$2b$12$dXds//rvHG.oXcI6aKAwVuYKrQVfKL1fTwghArmVOc7w9kQce4N8u",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "Spidey_B0I",
+    "password": "$2b$12$vn8f9BXwEKcZsWacc33sW.BnlLKiT1ROrEOpzH1REG1eLQd82OZ1G",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "spidey_boi",
+    "password": "$2b$12$R6A2vqeUKGJFi8IVtBdiROfsdIUwq4o.U.bCIGLAV/QmKNpmWzibK",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "new",
+    "password": "$2b$12$cDMVdRb3E/DnLhCEJaZzTueNxIc6.8rZT1lVuA0AV7sw7BWzYjpB6",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "Lamppost1639",
+    "password": "$2b$12$IzBKh8/FZ3BYEK4zc.079uQl/NLj7rigVozEX7Go6nHuG8a4mM.ve",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "KJ8M23",
+    "password": "$2b$12$rmi2EiAmmr..gbCKBlue1OD9G5dTq0HxSweMOsyJ3y4BEl/PoH5Oe",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "Adriano",
+    "password": "$2b$12$nIVR0vdnyE5kjgHz4arU1.HIeryODvdY04sfiIAY4KGeX2uItI50O",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [
+      "SS GUIDON"
+    ],
+    "elo": 1000
+  },
+  {
+    "username": "SS GUIDON  ",
+    "password": "$2b$12$AeSqhxU.tAgDoQuxOKYwluPuB5lAhlkGNfeKNcRvhb5APNURHrGMG",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "SS GUIDON ",
+    "password": "$2b$12$d6pU5nh4vWsqHF9O9GUVL.eFLWpD4ezkipsRQ/zjjaKLuQpmUUNzi",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "SS GUIDON",
+    "password": "$2b$12$idqwG5JNm0.ZhdPdXMMLp./p7zptvQGPiAMPvrMcXHHnSMk.C7cZu",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "FNNN",
+    "password": "$2b$12$E9/dQfBjuuMKOfqmlwALfurb7RKTfcxlBc/IiRnjs4SPuEvN12Mny",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "inocentiu.voinea.jr@gmail.com",
+    "password": "$2b$12$9rbb0uzUmrvnx3cPKALthObAtWfyncgSN23cAFml27muZY6JejK.O",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "pauling",
+    "password": "$2b$12$yFiazJe/sYBAXUznu1SUVOm8zTFqYYQdVyzIiy24qr.wCFfirEd.W",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "paulish",
+    "password": "$2b$12$I2xg0rd45s.CfxnZM3Ct9Os2haRc5oTnhELsezlC0z9iI5NyA2XLG",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "W1ANG",
+    "password": "$2b$12$/H6Y1THiI3REB.WvXIXju.0dAysVAxSsBEfp8nB2txum7WE0lzr0i",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "",
+    "password": "$2b$12$tkNnQ0E17u3VR6Yz9wQN/eIGxKymHuk5W6qeETM1BZSiFvfhmL/Py",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "atckbuny",
+    "password": "$2b$12$MaENYXJnIBUX5LGco9d2qOr6op.h.lSHCLeZoQ0TKomsEQx99/yx.",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "shotgun",
+    "password": "$2b$12$1OVkYKOsSbeLpne9enTTAelcBWJPELDr7qmDLk69.gkkEYyzIB46u",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "yello",
+    "password": "$2b$12$SLWA65L87ErX4.xV1th.v.UFzojgUjE8eAanVu/eam57ba5vB3QyC",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "Tesla_Fanboi",
+    "password": "$2b$12$Fu2JNF5TvmYA7mmDMovy..1FfUnHaDxwKYlXcJo8e0rgIFfBl97dm",
+    "badge": "god",
+    "bio": "I am not a robot!!",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "valleyisgood",
+    "password": "$2b$12$1ChE9ZSueT1YGljyfKdn/uudblGSWPgj93wIt//fLDxfmSWxcpG1S",
+    "badge": null,
+    "bio": "?",
+    "pfp": "",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "r1pm3",
+    "password": "$2b$12$9fN5xltUnFO8.lbts878ce1xnetwFR3Dy3jdS5ION/Xn3xC9vyHzi",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "hello",
+    "password": "$2b$12$EzXsS/BrzDSYyy2awtV4ce2zJeIN0cvMStFFkZoyC4CSZKM1kLlh6",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "ud327",
+    "password": "$2b$12$7q7mc2GcU9FSCXclhyDBn.AHXcKyeXr/hNvyZzX4As6Hy6QKGE352",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "bop",
+    "password": "$2b$12$qilE6Nb9hgk/blCBn1UqweMWq0LCckkTC338XW3Q/NvB0KhTlxycq",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "aestivus",
+    "password": "$2b$12$4KP4ANhSDnRt5D.5rfn5Wu5YEJpvnLsm4o8VgU/XS4MxYfiAub9aW",
+    "badge": null,
+    "bio": "- --- -.- .. / .- -.-.--",
+    "pfp": "data:image/png;base64,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",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "trvm",
+    "password": "$2b$12$VkyxV8QR4E9DdjZAcHtJWulXyZgKsMa.dJ6L1CycK09f4F.wWOQJO",
+    "badge": "admin",
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "test1",
+    "password": "$2b$12$EBKyUAdow7z6R0mk0Q8SKe6ncIkX5J9aXTKbrn8O.qmNv8sgm.raS",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "ian",
+    "password": "$2b$12$U/3wr8Op/Il.wwDv5igQ4eM7eK/CES.XM/CBbwLvJIuGjA7VGrM/i",
+    "badge": "owner",
+    "bio": "I made this website.",
+    "pfp": "https://play-lh.googleusercontent.com/i-0HlK6I-K5ZVI28HFa4iXz0T22Mg2WjQ4gMsEYvqmSNdifp2NE41ZiaUCavmbIimQ",
+    "blocked": [],
+    "elo": 99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+  },
+  {
+    "username": "Cheez_is_gud",
+    "password": "$2b$12$9VZdigvjRUmYdLzwLtdQFOR937qG1UXPbkEmVgXziq5zliQFDmgiy",
+    "badge": null,
+    "bio": "EAT CHEEZ OR DIE",
+    "pfp": "https://static.wikia.nocookie.net/olympians/images/3/3b/Anubis-Viria.jpg/revision/latest/scale-to-width-down/1000?cb=20180225220632",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "bobuxgamer331",
+    "password": "$2b$12$3/6chv/sJzm3jT07uKJfl.1yDmTFc.Z1vqdH4Cw0yYwBcsH84WkMC",
+    "badge": "admin",
+    "bio": "pls free bobux",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [
+      "ian is swearing",
+      "bobuxgamer331",
+      "bobuxgamer331"
+    ],
+    "elo": 9999999
+  },
+  {
+    "username": "002",
+    "password": "$2b$12$jUH9pzuatJxiy6sP1XG3W.OUC.PA0gcrK/FqKk.pKUNE68LTSHdgy",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "miso soup",
+    "password": "$2b$12$hzR30ycAcs8PoEHryOn42Oxufar0SmUbzScNIn3UOli2HzjCmsKpW",
+    "badge": null,
+    "bio": "",
+    "pfp": "https://st.depositphotos.com/1052233/2885/v/600/depositphotos_28850541-stock-illustration-male-default-profile-picture.jpg",
+    "blocked": [],
+    "elo": 1000
+  },
+  {
+    "username": "juicy",
+    "password": "$2b$12$mX8mh3SebsTsjW9ndL0U0.QFpOhATYCSZZDOadyb.tQU8VZOM798C",
+    "badge": "owner",
+    "bio": "I don't use this account. Go to @ian please.",
+    "pfp": "https://yt3.ggpht.com/ytc/AKedOLT7BriO0tfHTdJBhuWn1tdFl01vECvlMAA1f74W4g=s900-c-k-c0x00ffffff-no-rj",
+    "blocked": [
+      "test"
+    ],
+    "elo": 1984
+  },
+  {
+    "username": "reserved",
+    "password": "reserved",
+    "badge": "admin",
+    "bio": "This is a reserved profile for development purposes.",
+    "pfp": "https://t3.ftcdn.net/jpg/03/91/19/22/360_F_391192211_2w5pQpFV1aozYQhcIw3FqA35vuTxJKrB.jpg",
+    "blocked": [],
+    "elo": 0
+  }
+]

@@ -1,0 +1,43 @@
+{% if base|string() == "2"|string() %}
+{% extends 'base2.html' %}
+{% else %}
+{% extends 'base.html' %}
+{% endif %}
+
+{% block title %}
+    <title>Keyer v2</title>
+{% endblock %}
+
+{% block body %}
+    <br><br><br>
+    <div class="container">
+        <h1>morsecode.fun</h1>
+        <h3 style="color: white;">Keyer v2</h3>
+        <button id="key" style="color: white; background-color: black;" onmousedown="red();" onmouseup="lime();">Key</button><br>
+        Frequency:
+        <input type="number" value="550" id="freq" min="300" max="1000">
+        <button id="submit" onmousedown="setfreq();" onmouseup="black();" ontouchstart="setfreq();" ontouchend="black();">Set Frequency</button><br><br>
+        Keying Speed:
+        <input type="number" value="5" id="wpm" min="1">
+        <button id="setwpm" onmousedown="setwpm();" onmouseup="black2();">Set WPM</button><br>
+        <input type="text" placeholder="Morse Code Output goes here..." id="result" style="color:white;background:black;width:500px;" disabled>
+        <button id="send" style="color:black;background-color: lime;" onclick="send();">Send (enter)</button>
+        <button id="cancel" style="color:black;background-color: red;" onclick="cancel();">Cancel (esc)</button><br><br>
+        <form action="keyer-v2">
+            <select name="lang" id="lang" class="dropdown">
+              <option value="English" class="dropdown-item">Select Language...</option>
+              <option value="English" class="dropdown-item">English</option>
+              <option value="Korean" class="dropdown-item">Korean (Bugged, do not report on GitHub)</option>
+              <option value="Spanish" class="dropdown-item">Spanish</option>
+            </select>
+            <input type="submit" value="Submit">
+          </form>
+    </div><br><br>
+    <div class="container">
+        Output:<br>
+        <textarea id="output" style="color:white;background:black;" style="resize: both;" disabled></textarea>
+    </div>
+    <br><br><br><br>
+    <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
+    <script src="../static/js/{{ lang }}.js"></script>
+{% endblock %}

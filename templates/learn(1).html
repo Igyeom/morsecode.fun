@@ -1,0 +1,28 @@
+{% if base|string() == "2"|string() %}
+{% extends 'base2.html' %}
+{% else %}
+{% extends 'base.html' %}
+{% endif %}
+
+{% block head %}
+    <script src="../static/js/script.js"></script>
+{% endblock %}
+
+{% block title %}
+    <title>morsecode.fun - online morse utilities</title>
+{% endblock %}
+
+{% block body %}
+    <br><br><br>
+    <h1>morsecode.fun</h1>
+    <h3 style="color: white;">Learn Morse Code</h3><br><br>
+    <h4>Table of Contents</h4>
+    <a href="/learn/1">01. What is Morse Code?</a><br>
+    <a href="/learn/2">02. The Structure of Morse Code</a><br>
+    <a href="/learn/3">03. K & M</a><br>
+    <a href="/learn/4">04. U</a><br>
+    <a href="/learn/5">05. R</a><br>
+    <a href="/learn/6">06. E</a><br>
+    <a href="/learn/7">07. Checkpoint #1</a><br>
+    <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
+{% endblock %}
